@@ -1,0 +1,17 @@
+# Hugo build artifacts
+public/
+resources/_gen/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hugo lock file
+.hugo_build.lock
+
+# Node modules (if using)
+node_modules/

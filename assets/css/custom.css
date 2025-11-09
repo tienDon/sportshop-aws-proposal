@@ -1,0 +1,178 @@
+/* Print optimization styles */
+@media print {
+  @page {
+    margin: 1.5cm;
+    size: A4;
+  }
+
+  .header,
+  .footer,
+  .lang-switch,
+  .post-meta {
+    display: none !important;
+  }
+
+  body {
+    font-size: 11px !important;
+    line-height: 1.3 !important;
+    color: #000 !important;
+    background: #fff !important;
+  }
+
+  .main {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .post-single {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .post-title {
+    font-size: 18px !important;
+    margin-bottom: 8px !important;
+    page-break-after: avoid;
+  }
+
+  .post-content h1 {
+    font-size: 16px !important;
+    margin: 12px 0 6px 0 !important;
+    page-break-after: avoid;
+  }
+
+  .post-content h2 {
+    font-size: 14px !important;
+    margin: 10px 0 5px 0 !important;
+    page-break-after: avoid;
+  }
+
+  .post-content h3 {
+    font-size: 12px !important;
+    margin: 8px 0 4px 0 !important;
+    page-break-after: avoid;
+  }
+
+  .post-content p,
+  .post-content ul,
+  .post-content ol {
+    margin: 4px 0 !important;
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+  }
+
+  .post-content table {
+    font-size: 9px !important;
+    margin: 8px 0 !important;
+    border-collapse: collapse !important;
+  }
+
+  .post-content table th,
+  .post-content table td {
+    padding: 2px 4px !important;
+    border: 1px solid #000 !important;
+  }
+
+  .post-content hr {
+    margin: 8px 0 !important;
+    border: none !important;
+    border-top: 1px solid #000 !important;
+  }
+
+  .post-content ul li,
+  .post-content ol li {
+    margin: 2px 0 !important;
+  }
+
+  /* Avoid page breaks inside elements */
+  .post-content table,
+  .post-content ul,
+  .post-content ol,
+  .post-content blockquote {
+    page-break-inside: avoid;
+  }
+
+  /* Force page breaks */
+  .page-break {
+    page-break-before: always;
+  }
+}
+
+/* Screen styles optimization */
+@media screen {
+  .post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+  }
+
+  .post-content table th,
+  .post-content table td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid var(--border);
+    white-space: normal;
+  }
+
+  .post-content table th {
+    background-color: var(--tertiary);
+    font-weight: 600;
+  }
+
+  .post-content hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 2px solid var(--border);
+  }
+
+  .post-content h1::before {
+    content: "📋 ";
+  }
+
+  .post-content h2::before {
+    content: "🔍 ";
+  }
+
+  .post-content h3::before {
+    content: "⚙️ ";
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .post-content table {
+    font-size: 0.8rem;
+  }
+
+  .post-content table th,
+  .post-content table td {
+    padding: 0.5rem;
+  }
+
+  .post-title {
+    font-size: 1.5rem !important;
+  }
+
+  .post-content h1 {
+    font-size: 1.3rem !important;
+  }
+
+  .post-content h2 {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Dark mode adjustments */
+.dark .post-content table th {
+  background-color: var(--tertiary);
+  color: var(--primary);
+}
+
+.dark .post-content table td {
+  border-color: var(--border);
+}

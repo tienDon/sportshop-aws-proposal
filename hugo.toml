@@ -1,0 +1,36 @@
+baseURL = 'https://your-username.github.io/sportshop-aws-proposal/'
+languageCode = 'en-us'
+title = 'SportShop Proposal'
+theme = 'PaperMod'
+
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "SportShop E-Commerce Platform"
+    [languages.en.params]
+      subtitle = "AWS Three-Tier Architecture Proposal"
+  
+  [languages.vi]
+    languageName = "Tiếng Việt"
+    weight = 2
+    title = "Nền tảng SportShop E-Commerce"
+    [languages.vi.params]
+      subtitle = "Đề xuất Kiến trúc Ba tầng AWS"
+
+[params]
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  showShareButtons = false
+  showReadingTime = false
+  showPostNavLinks = false
+  showToc = true
+  TocOpen = true
+  
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10

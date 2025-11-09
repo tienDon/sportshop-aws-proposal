@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+    
+<body class="
+{{- if (or (ne .Kind "page" ) (eq .Layout "archives") (eq .Layout "search") (eq .Layout "terms") (eq .Layout "taxonomy")) -}}
+{{- print "list" -}}
+{{- end -}}
+{{- if eq site.Params.defaultTheme "dark" -}}
+{{- print " dark" }}
+{{- end -}}
+" id="top">
+
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+
+{{- partial "header.html" . }}
+<main class="main">
+
+{{- block "main" . }}{{- end }}
+</main>
+
+{{ partial "footer.html" . }}
+
+</body>
+
+</html>
