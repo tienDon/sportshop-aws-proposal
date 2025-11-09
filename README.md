@@ -1,5 +1,7 @@
 # SportShop E-Commerce Proposal - Hugo Site
 
+🌐 **Live Website**: https://tienDon.github.io/sportshop-aws-proposal/
+
 Đây là website Hugo để hiển thị proposal nền tảng SportShop E-Commerce với hỗ trợ đa ngôn ngữ (Tiếng Anh và Tiếng Việt).
 
 ## 🚀 Tính năng
