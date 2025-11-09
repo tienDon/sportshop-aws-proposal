@@ -4,6 +4,7 @@ title = 'SportShop Proposal'
 theme = 'PaperMod'
 
 defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 
 [languages]
   [languages.en]
