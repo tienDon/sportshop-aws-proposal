@@ -6,6 +6,11 @@ theme = 'PaperMod'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [languages]
   [languages.en]
     languageName = "English"
@@ -29,6 +34,7 @@ defaultContentLanguageInSubdir = false
   showPostNavLinks = false
   showToc = true
   TocOpen = true
+  images = ["/images/diagram.jpg"]
   
 [menu]
   [[menu.main]]
