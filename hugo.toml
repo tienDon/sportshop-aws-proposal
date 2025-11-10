@@ -6,9 +6,10 @@ theme = 'PaperMod'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
-# Cấu hình để fix multilingual image paths
-canonifyURLs = true
+# GitHub Pages deployment settings
+canonifyURLs = false
 relativeURLs = false
+enableGitInfo = true
 
 [markup]
   [markup.goldmark]
