@@ -137,7 +137,7 @@ Bạn có thể tìm thấy ước tính ngân sách trên [AWS Pricing Calculat
 - **Amazon CloudWatch (logs)**: $1.41/tháng (≈2 GB ingested, 1-month retention)
 - **AWS Key Management Service (KMS)**: $1.00/tháng (1 CMK, optional)
 
-## **Tổng: $106.42/tháng, $1,292.04/12 tháng, $15.00 trả trước.**
+**Tổng: $106.42/tháng, $1,292.04/12 tháng, $15.00 trả trước.**
 
 ### Đánh giá Rủi ro & Giảm thiểu
 
