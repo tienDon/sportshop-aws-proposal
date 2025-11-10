@@ -113,7 +113,7 @@ Nội dung web tĩnh được phân phối toàn cầu thông qua CloudFront và
 
 ### Ước tính Ngân sách
 
-Bạn có thể tìm thấy ước tính ngân sách trên [AWS Pricing Calculator](https://calculator.aws/#/estimate?utm_source=chatgpt.com) hoặc tải xuống ở đây [Budget Estimation PDF](/files/SportShop-Budget-Estimation.pdf).
+Bạn có thể tìm thấy ước tính ngân sách trên [AWS Pricing Calculator](https://calculator.aws/#/estimate?utm_source=chatgpt.com&id=1195281cec33775de9efa2b10f02e4927fa72063) hoặc tải xuống ở đây [Budget Estimation PDF](/files/SportShop-Budget-Estimation.pdf).
 
 **Chi phí cơ sở hạ tầng Dịch vụ AWS**
 

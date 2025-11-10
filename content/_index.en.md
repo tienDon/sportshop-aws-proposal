@@ -112,7 +112,7 @@ Static web content is served globally through CloudFront and S3, while backend l
 
 ### Budget Estimation
 
-You can find the budget estimation on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?utm_source=chatgpt.com) Or you can download the <a href="/files/SportShop-Budget-Estimation.pdf" download>Budget Estimation PDF</a>.
+You can find the budget estimation on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?utm_source=chatgpt.com&id=1195281cec33775de9efa2b10f02e4927fa72063) Or you can download the <a href="/files/SportShop-Budget-Estimation.pdf" download>Budget Estimation PDF</a>.
 
 **Infrastructure Costs AWS Services:**
 
