@@ -1,10 +1,14 @@
-baseURL = 'https://tienDon.github.io/sportshop-aws-proposal/'
+baseURL = 'https://tiendon.github.io/sportshop-aws-proposal/'
 languageCode = 'en-us'
 title = 'SportShop Proposal'
 theme = 'PaperMod'
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
+
+# Cấu hình để fix multilingual image paths
+canonifyURLs = true
+relativeURLs = false
 
 [markup]
   [markup.goldmark]
@@ -27,12 +31,12 @@ defaultContentLanguageInSubdir = false
       subtitle = "Đề xuất Kiến trúc Ba tầng AWS"
 
 [params]
-  showBreadCrumbs = true
-  showCodeCopyButtons = true
-  showShareButtons = false
-  showReadingTime = false
-  showPostNavLinks = false
-  showToc = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowPostNavLinks = false
+  ShowToc = true
   TocOpen = true
   images = ["/images/diagram.jpg"]
   
