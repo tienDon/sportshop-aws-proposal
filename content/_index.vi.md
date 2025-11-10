@@ -47,7 +47,7 @@ Nền tảng SportShop áp dụng **three-tier AWS cloud architecture** (Edge �
 
 Nội dung web tĩnh được phân phối toàn cầu thông qua CloudFront và S3, trong khi backend được triển khai trên Elastic Beanstalk có cân bằng tải và tự động mở rộng. Cơ sở dữ liệu RDS MySQL lưu trữ dữ liệu tin cậy, và Cognito quản lý xác thực người dùng bằng mã OTP. Kiến trúc tuân thủ các nguyên tắc chuẩn AWS về bảo mật, sẵn sàng và hiệu quả vận hành. (Hình sơ đồ kiến trúc minh họa bên dưới.)
 
-<img src="/images/diagram.jpg">
+![AWS Architecture Diagram](/images/diagram.jpg)
 
 #### Các dịch vụ AWS được sử dụng
 

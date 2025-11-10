@@ -7,7 +7,7 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
 # GitHub Pages deployment settings
-canonifyURLs = false
+canonifyURLs = true
 relativeURLs = false
 enableGitInfo = true
 

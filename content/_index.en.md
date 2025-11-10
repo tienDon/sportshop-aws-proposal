@@ -48,7 +48,7 @@ The SportShop platform adopts a **three-tier AWS cloud architecture** (Edge, App
 
 Static web content is served globally through CloudFront and S3, while backend logic is deployed on Elastic Beanstalk with load balancing and auto-scaling. RDS MySQL provides reliable data storage, and Cognito manages authentication with OTP verification. The architecture follows AWS best practices for security, availability, and operational efficiency. (Architecture diagram shown below.)
 
-<img src="/images/diagram.jpg">
+![AWS Architecture Diagram](/images/diagram.jpg)
 
 #### AWS Services Used:
 
