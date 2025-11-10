@@ -1,12 +1,12 @@
 ---
 title: "Nền tảng SportShop E-Commerce"
-description: "Kiến trúc Ba tầng AWS An toàn và Có khả năng Mở rộng cho Bán lẻ Thể thao Trực tuyến"
+description: "Kiến trúc ba lớp AWS an toàn, có khả năng mở rộng dành cho bán lẻ thể thao trực tuyến"
 date: 2025-11-09
 ---
 
 # Nền tảng SportShop E-Commerce
 
-## Kiến trúc Ba tầng AWS An toàn và Có khả năng Mở rộng cho Bán lẻ Thể thao Trực tuyến
+## Kiến trúc ba lớp AWS an toàn, có khả năng mở rộng dành cho bán lẻ thể thao trực tuyến
 
 ---
 
