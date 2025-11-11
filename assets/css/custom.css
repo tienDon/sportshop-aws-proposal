@@ -131,15 +131,15 @@
   }
 
   .post-content h1::before {
-    content: "📋 ";
+    /* content: "📋 "; */
   }
 
   .post-content h2::before {
-    content: "🔍 ";
+    /* content: "🔍 "; */
   }
 
   .post-content h3::before {
-    content: "⚙️ ";
+    /* content: "⚙️ "; */
   }
 }
 
